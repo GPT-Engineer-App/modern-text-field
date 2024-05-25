@@ -1,5 +1,4 @@
 import React from "react";
-import "./Index.css";
 
 const Index = () => {
   const staticText = "This is a static text field.";
