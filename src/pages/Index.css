@@ -32,8 +32,21 @@
   color: #333;
 }
 
+.static-text-container {
+  padding: 20px;
+  margin-top: 20px;
+  border: 2px solid #007acc;
+  border-radius: 10px;
+  background-color: #e0f7ff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+}
+
+.static-text-container:hover {
+  transform: translateY(-5px);
+}
+
 .static-text {
-  margin-top: 10px;
   font-size: 1.5rem;
   font-weight: bold;
   color: #007acc;
