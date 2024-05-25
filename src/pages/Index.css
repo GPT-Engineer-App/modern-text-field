@@ -1,0 +1,27 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.box {
+  padding: 16px;
+  margin-top: 16px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  width: 100%;
+}
+
+.static-text-label {
+  font-size: 1.125rem;
+}
+
+.static-text {
+  margin-top: 8px;
+  font-size: 1.25rem;
+  font-weight: bold;
+}
